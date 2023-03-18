@@ -5,7 +5,7 @@ function swap(arr, a, b) {
   arr[a] = arr[b];
   arr[b] = temp;
 }
-
+ 
 function parent(index) {
   return Math.floor((index - 1) / 2);
 }
