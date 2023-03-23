@@ -24,6 +24,7 @@ label  {
   background-color: rgb(61, 61, 61);
   font-size: 1.1em;
   color: white;
+  min-height: max-content;
   
   border: none;
   border-radius: 3px;
