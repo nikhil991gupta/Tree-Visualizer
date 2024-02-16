@@ -1,86 +1,86 @@
-html {
+/* /* Reset default margin and padding */
+html, body {
   margin: 0;
   padding: 0;
 }
 
+/* Set background color for the body */
 body {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
+  background-color: #f0f0f0; /* Light gray */
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-input {
-  font-size: 1.1em;
-}
-
-label  {
-  font-size: 1.1em;
-}
-
-#title {
-  
-  background-color: rgb(61, 61, 61);
-  font-size: 1.1em;
-  color: white;
-  min-height: max-content;
-  
-  border: none;
-  border-radius: 3px;
-  font-weight: normal;
-  font-size: 1.75em;
-
-}
-
-#blurb {
-  background-color: rgba(255, 255, 255, 0.386);
   text-align: center;
-  margin: 1em auto 1em auto;
-  width: 500px;
-  padding: .5em;
+}
+
+/* Style for input fields */
+input, label {
+  font-size: 1em;
+}
+
+/* Title styling */
+#title {
+  background-color: #333; /* Dark gray */
+  color: white;
+  padding: 0.5em;
+  border-radius: 3px;
+  font-size: 1.5em; /* Larger font size */
+  margin-bottom: 1em; /* Add some space below the title */
+}
+
+/* Styling for additional information blurb */
+#blurb {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  text-align: center;
+  margin: 0 auto 1em auto;
+  max-width: 500px; /* Limit width for better readability */
+  padding: 1em; /* Increase padding for better spacing */
   border-radius: 5px;
 }
 
+/* Styling for the visual title */
 #visual-title {
   font-weight: bold;
   font-size: 1.2em;
-  padding-bottom: .5em;
+  margin-bottom: 0.5em; /* Add some space below the visual title */
 }
 
+/* Styling for the array visual */
 #array-visual {
   margin: 1em;
 }
 
+/* Header styling */
 header {
-  background-color: rgb(255, 255, 255);
-  
-  background-size: cover;
-  width: 100%;
+  background-color: #fff; /* White */
   padding: 1em;
-  color:black;
+  color: #333; /* Dark gray */
+  margin-bottom: 1em; /* Add some space below the header */
 }
 
+/* Button styling */
 button {
   margin-top: 1em;
-  background-color: rgb(74, 9, 3);
-  font-size: 1.1em;
+  background-color: #6c63ff; /* Purple */
+  font-size: 1em; /* Revert font size to default */
   color: white;
-  padding: .25em .5em .25em .5em;
+  padding: 0.5em 1em; /* Increase padding for better button size */
   border: none;
   border-radius: 3px;
-  font-weight: normal;
+  font-weight: bold;
+  cursor: pointer; /* Change cursor on hover */
 }
 
+/* Hover effect for clickable elements */
 rect:hover, circle:hover, text.circle:hover, text.rect:hover {
   cursor: pointer;
 }
 
+/* Additional styling for subtext */
 .subtext {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 400;
 }
 
+/* SVG container */
 .svg-container {
   display: inline-block;
   position: relative;
